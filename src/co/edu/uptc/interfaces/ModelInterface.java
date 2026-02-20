@@ -1,5 +1,10 @@
 package co.edu.uptc.interfaces;
 
-public class ModelInterface {
+import co.edu.uptc.model.Producto;
 
+public interface ModelInterface {
+
+    void addProducto(Producto producto);
+    String[] getProductos();
+    int deleteProducto(String nombre);
 }

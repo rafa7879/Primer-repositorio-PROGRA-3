@@ -1,5 +1,8 @@
 package co.edu.uptc.interfaces;
 
-public class PresenterInterface {
+public interface PresenterInterface {
 
+    void addProducto(String descripcion, double precio, String unidadMedida);
+    String[] getProductos();
+    int deleteProducto(String nombre);
 }

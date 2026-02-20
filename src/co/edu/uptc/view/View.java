@@ -1,5 +1,7 @@
 package co.edu.uptc.view;
 
-public class View {
+import co.edu.uptc.interfaces.ViewInterface;
+
+public class View implements ViewInterface {
 
 }

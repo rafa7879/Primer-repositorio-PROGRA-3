@@ -1,5 +1,5 @@
 package co.edu.uptc.interfaces;
 
-public class ViewInterface {
+public interface ViewInterface {
 
 }
